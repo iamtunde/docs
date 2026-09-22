@@ -9,6 +9,12 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "tabs": [
+      {
+        "tab": "API Reference",
+        "openapi": "openapi.json"
+      }
+    ],
     "pages": [
       {
         "group": "Getting Started",
@@ -17,21 +23,7 @@
           "quickstart"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
